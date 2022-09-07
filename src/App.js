@@ -4,7 +4,7 @@ import Tweet from "./components/Tweet";
 const tweetsArray = [
   {
     user: {
-      name: "Thoughts of Dog®",
+      name: "aaaaaaaaaaaaaaaH react i don't love you yet",
       image: "https://i.imgur.com/b0EdHVV.jpg",
       handle: "dog_feelings",
     },
@@ -14,7 +14,7 @@ const tweetsArray = [
   },
   {
     user: {
-      name: "Thoughts of Dog®",
+      name: "Thoughts of Benjamin® about react",
       image: "https://i.imgur.com/b0EdHVV.jpg",
       handle: "dog_feelings",
     },
@@ -24,7 +24,7 @@ const tweetsArray = [
   },
   {
     user: {
-      name: "Thoughts of Dog®",
+      name: "Thoughts of React beeing annoying",
       image: "https://i.imgur.com/b0EdHVV.jpg",
       handle: "dog_feelings",
     },
@@ -37,7 +37,9 @@ const tweetsArray = [
 function App() {
   return (
     <div className="App">
-      <Tweet />
+      <Tweet tweet={tweetsArray[0]} />
+      <Tweet tweet={tweetsArray[1]} />
+      <Tweet tweet={tweetsArray[2]} />
     </div>
   );
 }
